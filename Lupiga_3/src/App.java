@@ -20,10 +20,11 @@ public class App {
 		String[] ime={"Predrag","Srdjan","Mladen","Marko"};
 		String[] prezime={"Nagra","Dodik","Tosic","Markovic"};
 		
-		for (int i=0; i<4; i++) {
+		for (int i=0; i<ime.length; i++) {
 			
 			System.out.println(ime[i]+" "+prezime[i]);
 		}
+		
 
 	}
 
